@@ -1,0 +1,156 @@
+// Core variables and mixins
+@import "../bootstrap/less/variables.less";
+@import "../bootstrap/less/mixins.less";
+
+// Reset
+@import "../bootstrap/less/normalize.less";
+@import "../bootstrap/less/print.less";
+
+// Core CSS
+@import "../bootstrap/less/scaffolding.less";
+@import "../bootstrap/less/type.less";
+@import "../bootstrap/less/code.less";
+@import "../bootstrap/less/grid.less";
+@import "../bootstrap/less/tables.less";
+@import "../bootstrap/less/forms.less";
+@import "../bootstrap/less/buttons.less";
+
+// Components
+@import "../bootstrap/less/component-animations.less";
+@import "../bootstrap/less/glyphicons.less";
+@import "../bootstrap/less/dropdowns.less";
+@import "../bootstrap/less/button-groups.less";
+@import "../bootstrap/less/input-groups.less";
+@import "../bootstrap/less/navs.less";
+@import "../bootstrap/less/navbar.less";
+@import "../bootstrap/less/breadcrumbs.less";
+@import "../bootstrap/less/pagination.less";
+@import "../bootstrap/less/pager.less";
+@import "../bootstrap/less/labels.less";
+@import "../bootstrap/less/badges.less";
+@import "../bootstrap/less/jumbotron.less";
+@import "../bootstrap/less/thumbnails.less";
+@import "../bootstrap/less/alerts.less";
+@import "../bootstrap/less/progress-bars.less";
+@import "../bootstrap/less/media.less";
+@import "../bootstrap/less/list-group.less";
+@import "../bootstrap/less/panels.less";
+@import "../bootstrap/less/wells.less";
+@import "../bootstrap/less/close.less";
+
+// Components w/ JavaScript
+@import "../bootstrap/less/modals.less";
+@import "../bootstrap/less/tooltip.less";
+@import "../bootstrap/less/popovers.less";
+@import "../bootstrap/less/carousel.less";
+
+// Utility classes
+@import "../bootstrap/less/utilities.less";
+@import "../bootstrap/less/responsive-utilities.less"; 
+
+@import "variables.less"; 
+
+
+
+
+ 
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.2
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #bbb;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	background: #0073C5;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+// common styles   
+
+body {
+	padding-top: 70px;
+}
+
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+} 
+// random page
+
+
+
